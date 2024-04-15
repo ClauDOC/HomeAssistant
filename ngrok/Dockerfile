@@ -15,7 +15,11 @@ RUN set -x \
  && if [[ "${BUILD_ARCH}" = "i386" ]]; then ARCH="386"; fi \
  && curl -Lo /ngrok.zip https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-${ARCH}.zip \
  && unzip -o /ngrok.zip -d /bin \
- && rm -f /ngrok.zip
+ && rm -f /ngrok.zip \
+ && /bin/ngrok update
 
 # Initialize ngrok
-RUN  ngrok --version
+RUN /bin/ngrok --version
+
+# Command to run ngrok when the container starts
+CMD ["/bin/ngrok"]
