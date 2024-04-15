@@ -5,7 +5,7 @@
   "description": "A ngrok client for Hass.io",
   "init": false,
   "webui": "http://[HOST]:[PORT:4040]",
-  "url": "https://github.com/dy1io/hassio-addons",
+  "url": "https://github.com/ClauDOC/HomeAssistant",
   "stage": "deprecated",
   "arch": [
     "aarch64",
@@ -24,7 +24,7 @@
   },
   "options": {
     "log_level": "info",
-    "auth_token": "",
+    "auth_token": "2f85hmpTpTAr9GpLRlrGuIPXmpE_2VCvuAxnPtoA52vTDy8FY",
     "region": "us",
     "tunnels": [
       {
