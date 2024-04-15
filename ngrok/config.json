@@ -1,6 +1,6 @@
 {
   "name": "ngrok Client",
-  "version": "2.1.8",
+  "version": "2.3.41",
   "slug": "ngrok",
   "description": "Ngrok per Home Assistant su porta 8123",
   "init": false,
