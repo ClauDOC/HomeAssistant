@@ -15,8 +15,7 @@ RUN set -x \
  && if [[ "${BUILD_ARCH}" = "i386" ]]; then ARCH="386"; fi \
  && curl -Lo /ngrok.zip https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-${ARCH}.zip \
  && unzip -o /ngrok.zip -d /bin \
- && rm -f /ngrok.zip \
- && /bin/ngrok update
+ && rm -f /ngrok.zip
 
 # Initialize ngrok
 RUN /bin/ngrok --version
