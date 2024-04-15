@@ -2,7 +2,7 @@
   "name": "ngrok Client",
   "version": "2.1.8",
   "slug": "ngrok",
-  "description": "A ngrok client for Hass.io",
+  "description": "Ngrok per Home Assistant su porta 8123",
   "init": false,
   "webui": "http://[HOST]:[PORT:4040]",
   "url": "https://github.com/ClauDOC/HomeAssistant",
